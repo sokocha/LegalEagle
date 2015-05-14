@@ -1,4 +1,4 @@
-Qaror::Application.routes.draw do
+Legal9ja::Application.routes.draw do
 
   resources :pages
 

@@ -13,7 +13,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-module Qaror
+module Legal9ja
   class Application < Rails::Application
 
     ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|

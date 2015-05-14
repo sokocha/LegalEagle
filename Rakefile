@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Qaror::Application.load_tasks
+Legal9ja::Application.load_tasks
