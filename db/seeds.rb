@@ -17,3 +17,4 @@ GOLD.each do |name| Badge.create(:name=>name,:badge_type=>Badge::GOLD) end
 SILVER.each do |name| Badge.create(:name=>name,:badge_type=>Badge::SILVER) end
 BRONZE.each do |name| Badge.create(:name=>name,:badge_type=>Badge::BRONZE) end
 puts 'badges feeded'
+
