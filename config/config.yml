@@ -4,7 +4,7 @@ common: &common
   display_app_name: "legal9ja (not for profit)"
 
   # for mailer only
-  app_domain: "qaror.herokuapp.com"
+  app_domain: "legal9ja.com"
 
   remote_external_hash: "__external_hash"
   remote_cookies: "__session"
