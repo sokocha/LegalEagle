@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%=h (!yield(:title).blank? && yield(:title)) || "Questions & Answers site for Nigerian Law & Nigerian Legal System" %></title>
+  <title><%=h (!yield(:title).blank? && yield(:title)) || "Question & Answer platform for Nigerian Law School Students and Lawyers" %></title>
   <% if controller_name == 'main' %>
-  <meta name="keywords" content="Legal Questions & Answers platform for Nigerian Lawyers & Students" />
-  <meta name="description" content="Legal Questions & Answers platform for Nigerian Lawyers & Students" />
+  <meta name="keywords" content="Nigerian Law School, Nigerian Law School Students, Nigerian Constitution" />
+  <meta name="description" content="Question and Answer platform for Nigerian Law School Students and Lawyers. Contribute to the growing database of legal knowledge. It's free, Sign up now!" />
   <% end %>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta name="robots" content="all" />
-  <meta name="author" content="mattdw" />
+  <meta name="author" content="legal9ja" />
   <%= stylesheet_link_tag 'application' %>
   <%= javascript_include_tag 'application' %>
   <%= render 'layouts/tagit'  if (['thrs'].include? controller_name) && (["new","create","edit","update"].include? action_name) %>
