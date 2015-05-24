@@ -18,7 +18,7 @@
           <% end %>
 
           <% if can? :destroy, an %>
-              <%= link_to t(:destroy) , an, :class=> '_confirm-remote-delete',"data-confirmation" => 'Czy chcesz usunąć tę odpowiedź ?' %>
+              <%= link_to t(:destroy) , an, :class=> '_confirm-remote-delete',"data-confirmation" => 'Are you sure you want to delete this answer ?' %>
           <% end %>
         </div>
       <% end %>
