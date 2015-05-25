@@ -25,7 +25,7 @@
         <%= f.simple_captcha %>
       </div>
       <div class="field">
-        <%= t"users.agreement_note",:button=>t("users.new") %> <strong><%= link_to t('users.agreement_link'), privacy_url,:target=> '_blank' %></strong>
+        <%= t"users.agreement_note",:button=>t("users.new") %> <strong><%#= link_to t('users.agreement_link'), privacy_url,:target=> '_blank' %></strong>
       </div>
       <div class="field">
         <%= field_messages_for @user %>
