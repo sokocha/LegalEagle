@@ -22,9 +22,9 @@
         <%#= render :partial=> 'shared/shareit', :locals => { :object => @thr }  %>
 <!--       </div>
     </div> -->
-
+    
     <div class="block">
-      <div class="title"><h3><%= t("thrs.show.interesting") %></h3></div>
+      <div class="title"><h3><%= t("thrs.show.interesting") %><%= social_share_button_tag("legal9ja") %></h3></div>
       <div class="bdesc">
         <div class="thr_sub">
           <%= render :partial=> 'thrs/subscription' %>
