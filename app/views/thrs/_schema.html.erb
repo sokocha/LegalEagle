@@ -1,7 +1,7 @@
 <div id="thr" class="lcontent">
   <div id="thr-<%= @thr.id %>">
     <div class="title">
-      <h1><%= title @thr.stitle %></h1>
+      <h1><%= title @thr.stitle %><%= social_share_button_tag("legal9ja") %></h1>
     </div>
     <div class="left_side">
       <%= render :partial=> 'shared/vote', :locals => { :object => @thr }  %>
