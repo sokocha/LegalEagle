@@ -32,7 +32,9 @@
           <%= tag_schema(name) %>
         <% end %>
       <% end %>
-      <%= social_share_button_tag(thr_stitle) %>
+      <% cache("thrs/#{thr.id}/thr_stitle") do %>
+        <%= social_share_button_tag(thr.stitle) %>
+      <% end %>
     </div>
     <div class="authoring">
       <div class="author"><%= user_label_small(thr.last_activity_user) %></div>
