@@ -14,7 +14,6 @@
       <% end %>
     </div>
     <div class="wrap_content right">
-      <div class="fb-share-button" data-layout="box_count"></div>
         <% if current_user %>
           <div class="content_options">
             <% if can? :report_flag, @thr %>
@@ -48,6 +47,7 @@
           <% cache("thrs/#{@thr.id}/thr_content") do %>
             <%=simple_format h(@thr.content) %>
           <% end %>
+          <div class="fb-share-button" data-layout="box_count"></div>
         </div>
         <div class="content_bottom">
           <div class="left">
