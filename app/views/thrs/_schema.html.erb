@@ -2,6 +2,7 @@
   <div id="thr-<%= @thr.id %>">
     <div class="title">
       <h1><%= title @thr.stitle %></h1>
+      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
     </div>
     <div class="left_side">
       <%= render :partial=> 'shared/vote', :locals => { :object => @thr }  %>
@@ -65,7 +66,7 @@
             <div class="right">
               
               <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
-              
+
               <div class="created_at small_font"><%= link_to "#{t(:edited)} #{distance_of_time_in_words_to_now(@thr.versions.last.created_at)}",history_thr_url(@thr) %></div>
               <div class="author"><%= user_label(@thr.versions.last.user) unless @thr.versions.last.user_id == @thr.user_id %></div>
             </div>
