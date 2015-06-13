@@ -5,7 +5,6 @@
  *= require reset
  *= require_self
  *= require_tree .
- *= require social-share-button
 */
 
 body {

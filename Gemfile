@@ -51,7 +51,7 @@ gem 'paper_trail', '~> 3.0.1'
 gem 'rename'
 
 # social media
-gem 'social-share-button', '~> 0.1.6'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
