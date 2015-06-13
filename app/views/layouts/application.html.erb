@@ -54,6 +54,19 @@
 
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557ab350780b285b" async="async"></script>
+
+  <!-- SiteApps Javascript Code for -->
+  <script type="text/javascript">
+  $SA = {s:238432, asynch: 1};
+  (function() {
+     var sa = document.createElement("script");
+     sa.type = "text/javascript";
+     sa.async = true;
+     sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+     var t = document.getElementsByTagName("script")[0];
+     t.parentNode.insertBefore(sa, t);
+  })();
+  </script>
   
   <!-- flash windows -->
   <%= render :partial => 'shared/flash_window' %>
