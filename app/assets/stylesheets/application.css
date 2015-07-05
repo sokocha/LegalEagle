@@ -16,8 +16,6 @@ body {
     /*font-family: 'Copse', serif;*/
 }
 
-a.logo,a.ui_button{font-family: 'Fredericka the Great', cursive;}
-
 .small_font {font-size: 13px;}
 .grey_font {color:#AAAAAA;}
 strong,b {font-weight:bold; }
@@ -99,7 +97,7 @@ table td{
 }
 
 .ui_button  {
-    font-family: Tahoma,Arial,Verdana,sans-serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 16px;
     
     border: 1px solid #DDDDDD;
@@ -147,12 +145,13 @@ a.ui_button.small {
 }
 
 #header {
-    border-bottom:2px solid #777777;
-    background-image: linear-gradient(to bottom, #74ace0, #659fd4);
+    /*border-bottom:2px solid #777777;*/
+   /* background-image: linear-gradient(to bottom, #74ace0, #659fd4);*/
+   background-color: #3D4C53;
 }
 
 #header .ui_button {
-    color: #ffffff;
+    color: #F2C249;
 }
 
 #header .inner_header {
@@ -163,7 +162,7 @@ a.ui_button.small {
 }
 
 #header .logo {
-    color:#ffffff;
+    color:#F2C249;
     font-size:26px;
 }
 
