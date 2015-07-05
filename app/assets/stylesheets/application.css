@@ -8,11 +8,15 @@
 */
 
 body {
-    font-family: Helvetica ,serif,sans-serif;
+/*    font-family: Helvetica ,serif,sans-serif;*/
     font-size:15px;
     color:#161616;
     background:#eeeeee;
+    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Copse', serif;*/
 }
+
+a.logo,a.ui_button{font-family: 'Fredericka the Great', cursive;}
 
 .small_font {font-size: 13px;}
 .grey_font {color:#AAAAAA;}
