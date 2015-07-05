@@ -126,7 +126,8 @@ a.ui_button {
 }
 
 .ui_button.green  {
-    background-color:#9BB73E;
+/*    background-color:#9BB73E;*/
+    background-color: #E64A45;
     color:#FFFFFF;
 }
 
