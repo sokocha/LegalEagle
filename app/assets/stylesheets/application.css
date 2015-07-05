@@ -358,7 +358,7 @@ form .actions {
 }
 
 .field input,.simple_captcha_field input,.search_input {
-    font-family: Arial,Helvetica,serif;
+    font-family: 'Fredericka the Great', cursive;
 
     -webkit-border-radius: 5px;
     -webkit-border-top-right-radius: 5px;
@@ -377,7 +377,7 @@ form .actions {
 }
 
 .field textarea,.new_comment textarea{
-    font-family: Arial,Helvetica,serif;
+    font-family: 'Fredericka the Great', cursive;
 
     -webkit-border-radius: 5px;
     -webkit-border-top-right-radius: 5px;
