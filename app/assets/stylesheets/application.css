@@ -1081,6 +1081,10 @@ table .achievement { margin-bottom:0px;}
     float:left;
 }
 
+div.name a {
+    color: #F2C249;
+}
+
 .user_ls .reputation {
     background-color:#FFFFFF;
     padding:0px 5px;
