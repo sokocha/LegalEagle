@@ -5,6 +5,7 @@
  *= require reset
  *= require_self
  *= require_tree .
+ *= require font-awesome
 */
 
 body {
@@ -163,6 +164,11 @@ a.ui_button.small {
 }
 
 #header .logo {
+    color:#F2C249;
+    font-size:26px;
+}
+
+i.fa{
     color:#F2C249;
     font-size:26px;
 }
