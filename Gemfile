@@ -54,6 +54,7 @@ gem 'rename'
 
 # styles
 gem "font-awesome-rails"
+gem "twitter-bootstrap-rails"
 
 
 # To use ActiveModel has_secure_password
