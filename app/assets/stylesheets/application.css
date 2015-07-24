@@ -6,6 +6,9 @@
  *= require_self
  *= require_tree .
  *= require font-awesome
+ *= require bootstrap
+ *= require bootstrap-theme
+
 */
 
 body {
