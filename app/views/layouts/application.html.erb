@@ -4,6 +4,7 @@
   <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
   <title><%=h (!yield(:title).blank? && yield(:title)) || "Question & Answer platform for Nigerian Law School Students and Lawyers" %></title>
   <% if controller_name == 'main' %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Nigerian Law School, Nigerian Law School Students, Nigerian Constitution" />
   <meta name="description" content="Question and Answer platform for Nigerian Law School Students and Lawyers. Contribute to the growing database of legal knowledge. It's free, Sign up now!" />
   <% end %>
@@ -83,7 +84,7 @@
   <!-- flash windows -->
   <%= render :partial => 'shared/flash_window' %>
   <div id="header">
-    <div class="inner_header clear_wrapper">
+    <div class="inner_header clear_wrapper navbar">
       <div class="left">
         <a href="/"><i class="fa fa-university"></i></a>
         
