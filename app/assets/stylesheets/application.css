@@ -1246,7 +1246,7 @@ h2.summary {
     .user_ls,.user_l{ margin-right:0px;font-size:12px;}
     #users .user_l {width:45%;margin:5px 0px}
     #thrs .thr .sneak h2 { margin-top:0px; margin-bottom:2px; width: 100%}
-    #thrs .thr .sneak h2 a { font-size:16px }
+    #thrs .thr .sneak h2 a { font-size:12px }
     #thrs .thr_marks { width:10%;}
     #thrs .thr_mark,#thrs .an_mark { float:none; }
     .tags a {padding:3px;font-size:11px;}
