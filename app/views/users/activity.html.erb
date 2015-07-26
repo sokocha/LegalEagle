@@ -10,7 +10,7 @@
   <%=t 'sort.user_tabs.activity' %>
 </div>
 <div id="content">
-  <table>
+  <table class="table">
     <% @user.activities.public_activities.order("created_at desc").each do |activity| %>
       <tr>
         <td><h2 class="grey_font"><%= distance_of_time_in_words_to_now(activity.created_at) %></h2></td>

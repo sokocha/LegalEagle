@@ -6,7 +6,7 @@
     <%= t("achievements.desc") %>
   </div>
   <div class="achievements">
-    <table>
+    <table class="table">
       <% @badges.each do |badge| %>
         <tr>
             <td><%= image_tag('/images/content/accept.png') if !@have_badges.nil? && @have_badges.include?(badge.id) %></td>
