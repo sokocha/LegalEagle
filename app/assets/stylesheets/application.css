@@ -677,8 +677,9 @@ table .achievement { margin-bottom:0px;}
 }
 
 #site #thrs .thr h2 {
-    width:500px;
+    max-width:100%;
     margin-bottom:6px;
+    line-height: .75em;
 }
 
 #site #thrs .thr .tags {
