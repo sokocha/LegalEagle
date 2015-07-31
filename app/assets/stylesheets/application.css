@@ -1085,6 +1085,7 @@ table .achievement { margin-bottom:0px;}
 .user_ls .name {
     margin-right:5px;
     float:left;
+    font-size: 15px;
 }
 
 div.name a {
@@ -1094,6 +1095,7 @@ div.name a {
 .user_ls .reputation {
     background-color:#FFFFFF;
     padding:0px 5px;
+    font-size: 15px;
 }
 
 #avatars {
