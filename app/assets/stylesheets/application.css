@@ -650,6 +650,7 @@ table .achievement { margin-bottom:0px;}
 #site .rhelper .block {
     padding: 8px 8px;
     padding-top:2px;
+    display: none;
 }
 
 #site .rhelper .block .title {
