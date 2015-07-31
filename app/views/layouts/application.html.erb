@@ -3,7 +3,6 @@
 <head>
   <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
   <title><%=h (!yield(:title).blank? && yield(:title)) || "Question & Answer platform for Nigerian Law School Students and Lawyers" %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <% if controller_name == 'main' %>
   
   <meta name="keywords" content="Nigerian Law School, Nigerian Law School Students, Nigerian Constitution" />
@@ -12,6 +11,7 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta name="robots" content="all" />
   <meta name="author" content="legal9ja" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="z7jn-_KTVhGVQK7tqayofuq5E22C8gfA0pfoaqnuI34" />
   <%= stylesheet_link_tag 'application' %>
   <%= javascript_include_tag 'application' %>
