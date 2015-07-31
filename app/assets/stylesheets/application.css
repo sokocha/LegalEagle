@@ -683,7 +683,7 @@ table .achievement { margin-bottom:0px;}
 }
 
 #site #thrs .thr .tags {
-    width:350px;
+    max-width:100%;
 }
 
 .title {
