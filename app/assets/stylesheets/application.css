@@ -24,8 +24,7 @@ body {
 .grey_font {color:#AAAAAA;}
 strong,b {font-weight:bold; }
 h1{
-   font-size:2em;
-   line-height: 1.1em;
+   font-size:26px;
 }
 h2{
     padding:0px;
@@ -694,7 +693,7 @@ table .achievement { margin-bottom:0px;}
 }
 
 .title h1 {
-    height:2.5em;
+    height:40px;
 }
 
 .title h2 {
