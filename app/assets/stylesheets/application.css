@@ -867,6 +867,7 @@ table .achievement { margin-bottom:0px;}
 #thrs h2 a,#thr h2 a{
     font-size:22px;
     font-weight:normal;
+    line-height: 1.2em;
 }
 
 /* ANSWERS */
